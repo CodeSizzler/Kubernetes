@@ -43,7 +43,7 @@ This exercise will guide you through working with ReplicaSets, Deployments, and 
   kubectl get replicaset
   ```
 
-  ![Created ReplicaSet](images/CreatedRS.png)
+
 
 ## Task 2: Exposing your ReplicaSet as a Service
 
@@ -77,7 +77,7 @@ This exercise will guide you through working with ReplicaSets, Deployments, and 
   kubectl get services
   ```
 
-  ![Accessible ReplicaSet service](images/AccessibleRS.png)
+
 
 ## Task 3: Creating a Kubernetes Deployment
 
@@ -118,7 +118,7 @@ This exercise will guide you through working with ReplicaSets, Deployments, and 
   kubectl get deployments
   ```
 
-  ![Created deployment](images/Deployment.png)
+
 
 ## Task 4: Scaling your Deployment
 
@@ -128,7 +128,7 @@ This exercise will guide you through working with ReplicaSets, Deployments, and 
   kubectl scale deployment nginx-deployment --replicas=5
   ```
 
-  ![Deployment Scaled Up](images/DeploymentUp.png)
+
 
 2. Run the below command to scale down your kubernetes deployment to 2 replica pods. 
 
@@ -141,5 +141,3 @@ This exercise will guide you through working with ReplicaSets, Deployments, and 
   ```
   kubectl get deployments
   ```
-
-  ![Scaling](images/Scaling.png)
