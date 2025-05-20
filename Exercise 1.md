@@ -106,7 +106,6 @@ This exericse  will guide you through setting up a Kubernetes cluster on a Linux
   kubectl get nodes
   ```
 
-   ![Ready cluster](images/ReadyCluster.png)
 
 ### Task 3: Working with Pods
 
@@ -143,5 +142,3 @@ This exericse  will guide you through setting up a Kubernetes cluster on a Linux
   ```bash
   kubectl get pods
   ```
-
-  ![Pod status](images/PodStatus.png)
