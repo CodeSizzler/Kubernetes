@@ -125,8 +125,7 @@ In this exercise, you will deploy an Azure Kubernetes Service (AKS) cluster in A
   kubectl describe pod my-pod
   ```
 
-  ![Mounted Persistant Volume](images/MountedPV.png)
-
+ 
 13. Enable Azure Defender for Kubernetes by running the below command. Azure Defender for Kubernetes enables threat detection, protection, and security monitoring for your Azure Kubernetes Service (AKS) clusters. 
 
   ```sh
