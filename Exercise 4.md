@@ -59,7 +59,7 @@ In this exercise, you will configure **Azure Monitor**, **Prometheus**, and **Au
   kubectl port-forward svc/prometheus-kube-prometheus-prometheus 9090:9090
   ```
 
-  ![Port forwarding](images/PF.png)
+
 
 9. You will now enable Horizontal Pod Autoscaler (HPA). This is used to automatically scale the number of pods in a deployment based on CPU or memory usage. We will begin by deploying a sample app. Define the sample app by creating a file with the below contents in the **nano** text editor. Save the file as **sample-app.yaml**. 
 
@@ -147,7 +147,6 @@ spec:
   kubectl get hpa sample-app-hpa --watch
   ```
 
-  ![HPA Scaling](images/HPAScaling.png)
 
 15. You will now enable Cluster Autoscaler on your AKS cluster. Cluster Autoscaler automatically adjusts the number of nodes in a Kubernetes cluster based on the demand for resources. When pods are in a pending state due to insufficient resources, it adds nodes. It also removes underutilized nodes. Run the below command to enable Cluster Autoscaler on your AKS cluster.
 
